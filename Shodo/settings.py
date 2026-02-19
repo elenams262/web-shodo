@@ -33,6 +33,12 @@ RENDER_EXTERNAL_HOSTNAME = os.environ.get("RENDER_EXTERNAL_HOSTNAME")
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://shodomarketing.com",
+    "https://www.shodomarketing.com",
+    "https://web-shodo.onrender.com",
+]
+
 
 # Application definition
 
