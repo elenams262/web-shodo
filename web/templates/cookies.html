@@ -1,0 +1,242 @@
+{% load static %}
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política de Cookies | Shodo</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{% static 'img/logos/favicon_square.ico' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{% static 'img/logos/favicon_square.png' %}"
+      sizes="32x32"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="bg-light">
+    <!-- Navbar (Misma que en otras páginas) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="{% url 'home' %}"
+        >
+          <img
+            src="{% static 'img/logos/icono-shodo.png' %}"
+            alt="Logo Shodo"
+            class="me-2"
+            style="height: 50px; width: auto"
+          />
+          <span class="fw-bold">Shodo Marketing y Eventos</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'home' %}">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'lista_trabajos' %}">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'home' %}#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <h1 class="mb-4">Política de Cookies</h1>
+
+      <h2 class="h4 mt-4 mb-3">Política de Cookies</h2>
+      <p>
+        Shodo Marketing y Eventos informa acerca del uso de las cookies en su
+        página web:
+        <a href="http://www.shodomarketing.com">www.shodomarketing.com</a>
+      </p>
+
+      <h2 class="h4 mt-4 mb-3">¿Qué son las cookies?</h2>
+      <p>
+        Las cookies son archivos que se pueden descargar en su equipo a través
+        de las páginas web. Son herramientas que tienen un papel esencial para
+        la prestación de numerosos servicios de la sociedad de la información.
+        Entre otros, permiten a una página web almacenar y recuperar información
+        sobre los hábitos de navegación de un usuario o de su equipo y,
+        dependiendo de la información obtenida, se pueden utilizar para
+        reconocer al usuario y mejorar el servicio ofrecido.
+      </p>
+
+      <h2 class="h4 mt-4 mb-3">
+        ¿Qué tipos de cookies utiliza esta página web?
+      </h2>
+      <p>
+        A continuación se identifican las cookies que están siendo utilizadas en
+        este sitio web así como su tipología y función:
+      </p>
+      <ul>
+        <li>
+          <strong>Cookies de análisis:</strong> Son aquéllas que bien tratadas
+          por nosotros o por terceros, nos permiten cuantificar el número de
+          usuarios y así realizar la medición y análisis estadístico de la
+          utilización que hacen los usuarios del servicio ofertado. Para ello se
+          analiza su navegación en nuestra página web con el fin de mejorar la
+          oferta de productos o servicios que le ofrecemos.
+        </li>
+        <li>
+          <strong>Cookies publicitarias:</strong> Son aquéllas que, bien
+          tratadas por nosotros o por terceros, permiten la gestión, de la forma
+          más eficaz posible, de los espacios publicitarios que, en su caso, el
+          editor haya incluido en una página web, aplicación o plataforma desde
+          la que presta el servicio solicitado en base a criterios como el
+          contenido editado o la frecuencia en la que se muestran los anuncios.
+        </li>
+        <li>
+          <strong>Cookies de publicidad comportamental:</strong> Son aquéllas
+          que permiten la gestión, de la forma más eficaz posible, de los
+          espacios publicitarios que, en su caso, el editor haya incluido en una
+          página web, aplicación o plataforma desde la que presta el servicio
+          solicitado. Estas cookies almacenan información del comportamiento de
+          los usuarios obtenida a través de la observación continuada de sus
+          hábitos de navegación, lo que permite desarrollar un perfil específico
+          para mostrar publicidad en función del mismo.
+        </li>
+      </ul>
+      <p>
+        Asimismo es posible que al visitar alguna página web o al abrir algún
+        email donde se publique algún anuncio o alguna promoción sobre nuestros
+        productos o servicios se instale en tu navegador alguna cookie que nos
+        sirva para mostrarte posteriormente publicidad relacionada con la
+        búsqueda que hayas realizado, desarrollar un control de nuestros
+        anuncios en relación, por ejemplo, con el número de veces que son
+        vistos, donde aparecen, a qué hora se ven, etc.
+      </p>
+
+      <h2 class="h4 mt-4 mb-3">Revocación y eliminación de cookies</h2>
+      <p>
+        Usted puede permitir, bloquear o eliminar las cookies instaladas en su
+        equipo mediante la configuración de las opciones del navegador instalado
+        en su ordenador, en caso que no permita la instalación de cookies en su
+        navegador es posible que no pueda acceder a alguna de las secciones de
+        nuestra web.
+      </p>
+      <p>
+        Para más información sobre como bloquear el uso de la cookies puedes
+        hacerlo a través del Navegador:
+      </p>
+      <ul>
+        <li>
+          <strong>Internet Explorer:</strong>
+          http://windows.microsoft.com/es-ES/windows-vista/Block-or-allow-cookies
+        </li>
+        <li>
+          <strong>Firefox:</strong>
+          http://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we
+        </li>
+        <li>
+          <strong>Safari:</strong>
+          http://support.apple.com/kb/HT1677?viewlocale=es_ES
+        </li>
+        <li>
+          <strong>Google Chrome:</strong>
+          https://support.google.com/chrome/answer/95647?hl=es
+        </li>
+      </ul>
+
+      <h2 class="h4 mt-4 mb-3">Terceros prestadores de servicios</h2>
+      <p>
+        En concreto los terceros prestadores de servicios con los que hemos
+        contratado algún servicio para el que es necesario la utilización de
+        cookies son:
+      </p>
+      <ul>
+        <li>
+          <strong>Google Analytics:</strong> (Google Inc.) Servicio de análisis
+          web que utiliza cookies para analizar el uso que hacen los usuarios
+          del sitio web. La información que genera la cookie acerca de su uso
+          del sitio web (incluyendo su dirección IP) será directamente
+          transmitida y archivada por Google en los servidores de Estados
+          Unidos. Google usará esta información por cuenta nuestra con el
+          propósito de seguir la pista de su uso del sitio web, recopilando
+          informes de la actividad del sitio web y prestando otros servicios
+          relacionados con la actividad del sitio web y el uso de Internet.
+          Google podrá transmitir dicha información a terceros cuando así se lo
+          requiera la legislación, o cuando dichos terceros procesen la
+          información por cuenta de Google. Google no asociará su dirección IP
+          con ningún otro dato del que disponga Google.
+        </li>
+      </ul>
+      <!-- Aquí iría el resto del contenido legal -->
+    </div>
+
+    <footer class="bg-dark text-white py-4 text-center">
+      <div class="container">
+        <div class="mb-3">
+          <a
+            href="https://www.instagram.com/shodo.mkt/"
+            class="text-white me-3 text-decoration-none"
+            target="_blank"
+            ><i class="bi bi-instagram fs-4"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/people/Shodo/61552725275343/"
+            class="text-white me-3 text-decoration-none"
+            target="_blank"
+            ><i class="bi bi-facebook fs-4"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/elena-mart%C3%ADnez-s%C3%A1nchez-a3a21b384/"
+            class="text-white me-3 text-decoration-none"
+            target="_blank"
+            ><i class="bi bi-linkedin fs-4"></i
+          ></a>
+          <a
+            href="mailto:elena@shodomarketing.com"
+            class="text-white text-decoration-none"
+            ><i class="bi bi-envelope fs-4"></i
+          ></a>
+        </div>
+        <p class="mb-0">
+          &copy; 2026 Shodo Marketing y Eventos. Todos los derechos reservados.
+        </p>
+        <div class="mt-2">
+          <a
+            href="{% url 'aviso_legal' %}"
+            class="text-white-50 text-decoration-none mx-2 small"
+            >Aviso Legal</a
+          >
+          <a
+            href="{% url 'privacidad' %}"
+            class="text-white-50 text-decoration-none mx-2 small"
+            >Política de Privacidad</a
+          >
+          <a
+            href="{% url 'cookies' %}"
+            class="text-white-50 text-decoration-none mx-2 small"
+            >Política de Cookies</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

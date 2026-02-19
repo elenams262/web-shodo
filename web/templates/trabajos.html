@@ -1,0 +1,197 @@
+{% load static %}
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuestros Trabajos | Shodo</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{% static 'img/logos/favicon_square.ico' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{% static 'img/logos/favicon_square.png' %}"
+      sizes="32x32"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      .fondo-proyectos {
+        background-color: #fd8279;
+        color: white;
+      }
+      .bg-shodo-red {
+        background-color: #fd8279 !important;
+        border-color: #fd8279 !important;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="{% url 'home' %}"
+        >
+          <img
+            src="{% static 'img/logos/icono-shodo.png' %}"
+            alt="Logo Shodo"
+            class="me-2"
+            style="height: 50px; width: auto"
+          />
+          <span class="fw-bold">Shodo Marketing y Eventos</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'home' %}">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'lista_trabajos' %}">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'home' %}#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="fondo-proyectos py-3 text-center border-bottom mb-5">
+      <h1 class="fw-bold">Portfolio de Proyectos</h1>
+      <p class="text-white">Explora todo lo que hemos realizado.</p>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        {% for t in trabajos %}
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm bg-shodo-red">
+            {% if t.imagen %}
+            <img
+              src="{{ t.imagen.url }}"
+              class="card-img-top"
+              alt="{{ t.titulo }}"
+            />
+            {% endif %}
+            <div class="card-body">
+              <h5 class="card-title">{{ t.titulo }}</h5>
+
+              <div
+                class="collapse show multi-collapse-{{ t.pk }}"
+                id="desc-short-{{ t.pk }}"
+              >
+                <p class="card-text text-secondary">
+                  {{ t.descripcion|truncatewords:15 }}
+                </p>
+              </div>
+
+              <div
+                class="collapse multi-collapse-{{ t.pk }}"
+                id="desc-full-{{ t.pk }}"
+              >
+                <p class="card-text text-secondary">
+                  {{ t.descripcion|linebreaksbr }}
+                </p>
+              </div>
+
+              <button
+                class="btn btn-sm bg-dark btn-secondary mt-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target=".multi-collapse-{{ t.pk }}"
+                aria-expanded="false"
+                aria-controls="desc-short-{{ t.pk }} desc-full-{{ t.pk }}"
+                onclick="toggleText(this)"
+              >
+                Leer más
+              </button>
+            </div>
+          </div>
+        </div>
+        {% empty %}
+        <div class="col-12 text-center">
+          <p>Aún no hay trabajos publicados.</p>
+        </div>
+        {% endfor %}
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4 text-center">
+      <div class="container">
+        <div class="mb-3">
+          <a
+            href="https://www.instagram.com/shodo.mkt/"
+            class="text-white me-3 text-decoration-none"
+            target="_blank"
+            ><i class="bi bi-instagram fs-4"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/people/Shodo/61552725275343/"
+            class="text-white me-3 text-decoration-none"
+            target="_blank"
+            ><i class="bi bi-facebook fs-4"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/elena-mart%C3%ADnez-s%C3%A1nchez-a3a21b384/"
+            class="text-white me-3 text-decoration-none"
+            target="_blank"
+            ><i class="bi bi-linkedin fs-4"></i
+          ></a>
+          <a
+            href="mailto:elena@shodomarketing.com"
+            class="text-white text-decoration-none"
+            ><i class="bi bi-envelope fs-4"></i
+          ></a>
+        </div>
+        <p class="mb-0">
+          &copy; 2026 Shodo Marketing y Eventos. Todos los derechos reservados.
+        </p>
+        <div class="mt-2">
+          <a
+            href="{% url 'aviso_legal' %}"
+            class="text-white-50 text-decoration-none mx-2 small"
+            >Aviso Legal</a
+          >
+          <a
+            href="{% url 'privacidad' %}"
+            class="text-white-50 text-decoration-none mx-2 small"
+            >Política de Privacidad</a
+          >
+          <a
+            href="{% url 'cookies' %}"
+            class="text-white-50 text-decoration-none mx-2 small"
+            >Política de Cookies</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function toggleText(btn) {
+        if (btn.innerText.trim() === "Leer más") {
+          btn.innerText = "Leer menos";
+        } else {
+          btn.innerText = "Leer más";
+        }
+      }
+    </script>
+  </body>
+</html>
