@@ -25,7 +25,6 @@ from web.views import (
     aviso_legal,
     privacidad,
     cookies,
-    crear_admin_emergencia,
 )
 from django.conf import settings
 from django.conf.urls.static import static
@@ -39,7 +38,6 @@ urlpatterns = [
     path("aviso-legal/", aviso_legal, name="aviso_legal"),
     path("politica-privacidad/", privacidad, name="privacidad"),
     path("politica-cookies/", cookies, name="cookies"),
-    path("crear-admin-secreto/", crear_admin_emergencia),
 ]
 
 if settings.DEBUG:

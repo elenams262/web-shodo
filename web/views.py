@@ -4,32 +4,6 @@ from .models import Trabajo, MensajeContacto
 from .forms import ContactoForm
 
 
-from django.contrib.auth.models import User
-from django.http import HttpResponse
-
-
-def crear_admin_emergencia(request):
-    username = "admin"
-    email = "shodomarketingyeventos@gmail.com"
-    password = "Raquelsanchez72."
-
-    try:
-        if not User.objects.filter(username=username).exists():
-            User.objects.create_superuser(username, email, password)
-            return HttpResponse(
-                f"Superusuario '{username}' creado correctamente. <a href='/admin'>Ir al admin</a>"
-            )
-        else:
-            u = User.objects.get(username=username)
-            u.set_password(password)
-            u.save()
-            return HttpResponse(
-                f"El usuario '{username}' ya existía. Contraseña restablecida. <a href='/admin'>Ir al admin</a>"
-            )
-    except Exception as e:
-        return HttpResponse(f"Error: {e}")
-
-
 def home(request):
     mis_trabajos = Trabajo.objects.all().order_by("-fecha_creacion")[:3]
 
