@@ -146,15 +146,16 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
-# Configuración de Cloudinary
-CLOUDINARY_STORAGE = {
-    "CLOUD_NAME": os.environ.get("CLOUDINARY_CLOUD_NAME", "dszkru5dq"),
-    "API_KEY": os.environ.get("CLOUDINARY_API_KEY", "348538281452878"),
-    "API_SECRET": os.environ.get(
-        "CLOUDINARY_API_SECRET", "BUoacyPntwcbBRkIrsRDapJJmos"
-    ),
-}
-DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
+# Configuración de Cloudinary (Librería Base)
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+
+cloudinary.config(
+    cloud_name="dszkru5dq",
+    api_key="348538281452878",
+    api_secret="BUoacyPntwcbBRkIrsRDapJJmos",
+)
 
 # Configuración de Email Real (Gmail)
 if not DEBUG:
