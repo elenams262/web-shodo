@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual
+env/
+venv/
+.env
+
+# Base de datos (opcional: si quieres compartir tus datos de prueba, coméntalo)
+db.sqlite3
+*.sqlite3
+
+# Archivos de medios subidos por usuarios (opcional: si quieres incluir las imágenes de tus trabajos en el repo, coméntalo)
+# media/
+
+# Archivos estáticos recolectados (producción)
+staticfiles/
+
+# IDE y Sistema Operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
