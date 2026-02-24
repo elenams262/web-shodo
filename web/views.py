@@ -39,7 +39,14 @@ def home(request):
                 fail_silently=False,
             )
 
-            return redirect("home")
+            from django.contrib import messages
+
+            messages.success(
+                request,
+                "¡Mensaje enviado correctamente! Nos pondremos en contacto contigo lo antes posible.",
+            )
+
+            return redirect("/#contacto")
     else:
         form = ContactoForm()
 
@@ -82,7 +89,13 @@ def contacto(request):
                 datos["email"],
                 ["shodomarketingyeventos@gmail.com"],
             )
-            return redirect("home")  # O a una página de gracias
+            from django.contrib import messages
+
+            messages.success(
+                request,
+                "¡Mensaje enviado correctamente! Nos pondremos en contacto contigo lo antes posible.",
+            )
+            return redirect("contacto")
     else:
         form = ContactoForm()
 
