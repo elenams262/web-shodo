@@ -34,7 +34,7 @@ def home(request):
             send_mail(
                 f"Nuevo contacto de {datos['nombre']}",
                 cuerpo_mensaje,
-                datos["email"],
+                "shodomarketingyeventos@gmail.com",
                 ["shodomarketingyeventos@gmail.com"],
                 fail_silently=False,
             )
@@ -86,7 +86,7 @@ def contacto(request):
             send_mail(
                 f"Nuevo contacto de {datos['nombre']}",
                 f"Nombre: {datos['nombre']}\nEmail: {datos['email']}\nTeléfono: {datos['telefono']}\n\nMensaje:\n{datos['mensaje']}",
-                datos["email"],
+                "shodomarketingyeventos@gmail.com",
                 ["shodomarketingyeventos@gmail.com"],
             )
             from django.contrib import messages
