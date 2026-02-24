@@ -31,13 +31,16 @@ def home(request):
                 f"Mensaje:\n{datos['mensaje']}"
             )
 
-            send_mail(
-                f"Nuevo contacto de {datos['nombre']}",
-                cuerpo_mensaje,
-                "shodomarketingyeventos@gmail.com",
-                ["shodomarketingyeventos@gmail.com"],
-                fail_silently=False,
-            )
+            try:
+                send_mail(
+                    f"Nuevo contacto de {datos['nombre']}",
+                    cuerpo_mensaje,
+                    "shodomarketingyeventos@gmail.com",
+                    ["shodomarketingyeventos@gmail.com"],
+                    fail_silently=False,
+                )
+            except Exception as e:
+                print(f"Error al enviar correo desde home: {e}")
 
             from django.contrib import messages
 
@@ -83,12 +86,16 @@ def contacto(request):
                 mensaje=datos["mensaje"],
             )
             # Enviamos Email
-            send_mail(
-                f"Nuevo contacto de {datos['nombre']}",
-                f"Nombre: {datos['nombre']}\nEmail: {datos['email']}\nTeléfono: {datos['telefono']}\n\nMensaje:\n{datos['mensaje']}",
-                "shodomarketingyeventos@gmail.com",
-                ["shodomarketingyeventos@gmail.com"],
-            )
+            try:
+                send_mail(
+                    f"Nuevo contacto de {datos['nombre']}",
+                    f"Nombre: {datos['nombre']}\nEmail: {datos['email']}\nTeléfono: {datos['telefono']}\n\nMensaje:\n{datos['mensaje']}",
+                    "shodomarketingyeventos@gmail.com",
+                    ["shodomarketingyeventos@gmail.com"],
+                    fail_silently=False,
+                )
+            except Exception as e:
+                print(f"Error al enviar correo desde contacto: {e}")
             from django.contrib import messages
 
             messages.success(

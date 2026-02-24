@@ -162,20 +162,11 @@ cloudinary.config(
 )
 
 # Configuración de Email Real (Gmail)
-if not DEBUG:
-    EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-    EMAIL_HOST = "smtp.gmail.com"
-    EMAIL_PORT = 587
-    EMAIL_USE_TLS = True
-    EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
-    EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
-else:
-    # Configuración para desarrollo (si quieres probar el envío real usa las mismas que arriba)
-    EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-    EMAIL_HOST = "smtp.gmail.com"
-    EMAIL_PORT = 587
-    EMAIL_USE_TLS = True
-    EMAIL_HOST_USER = "shodomarketingyeventos@gmail.com"
-    EMAIL_HOST_PASSWORD = "dati tzot ehuv wiqh"
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER", "shodomarketingyeventos@gmail.com")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD", "dati tzot ehuv wiqh")
 
 DEFAULT_FROM_EMAIL = "Web Shodo <shodomarketingyeventos@gmail.com>"
