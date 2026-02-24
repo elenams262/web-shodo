@@ -391,6 +391,7 @@
               method="POST"
               action="{% url 'home' %}#contacto"
               class="bg-white p-5 rounded-3 shadow text-dark"
+              id="form-contacto"
             >
               {% csrf_token %} {% for field in form %}
               <div class="mb-3">

@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from django.core.mail import send_mail
+
 from .models import Trabajo, MensajeContacto
 from .forms import ContactoForm
 
@@ -22,25 +22,7 @@ def home(request):
                 mensaje=datos["mensaje"],
             )
 
-            # 2. ENVIAR EMAIL (Cuerpo del mensaje mejorado)
-            cuerpo_mensaje = (
-                f"Has recibido un nuevo mensaje de contacto:\n\n"
-                f"Nombre: {datos['nombre']}\n"
-                f"Email: {datos['email']}\n"
-                f"Teléfono: {datos['telefono']}\n\n"
-                f"Mensaje:\n{datos['mensaje']}"
-            )
-
-            try:
-                send_mail(
-                    f"Nuevo contacto de {datos['nombre']}",
-                    cuerpo_mensaje,
-                    "shodomarketingyeventos@gmail.com",
-                    ["shodomarketingyeventos@gmail.com"],
-                    fail_silently=False,
-                )
-            except Exception as e:
-                print(f"Error al enviar correo desde home: {e}")
+            # El email ahora se envía por EmailJS desde el Frontend
 
             from django.contrib import messages
 
@@ -85,17 +67,7 @@ def contacto(request):
                 telefono=datos.get("telefono", ""),
                 mensaje=datos["mensaje"],
             )
-            # Enviamos Email
-            try:
-                send_mail(
-                    f"Nuevo contacto de {datos['nombre']}",
-                    f"Nombre: {datos['nombre']}\nEmail: {datos['email']}\nTeléfono: {datos['telefono']}\n\nMensaje:\n{datos['mensaje']}",
-                    "shodomarketingyeventos@gmail.com",
-                    ["shodomarketingyeventos@gmail.com"],
-                    fail_silently=False,
-                )
-            except Exception as e:
-                print(f"Error al enviar correo desde contacto: {e}")
+            # El email ahora se envía por EmailJS desde el Frontend
             from django.contrib import messages
 
             messages.success(

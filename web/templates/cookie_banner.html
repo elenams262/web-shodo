@@ -201,3 +201,49 @@
     }
   });
 </script>
+
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+></script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: "Lc_B5q6vaCMVQ-uRs",
+    });
+  })();
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.getElementById("form-contacto");
+    if (contactForm) {
+      contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const btn = contactForm.querySelector('button[type="submit"]');
+        if (btn) {
+          btn.innerHTML = "Enviando...";
+          btn.disabled = true;
+        }
+
+        const formData = new FormData(contactForm);
+        const templateParams = {
+          nombre_cliente: formData.get("nombre"),
+          correo_cliente: formData.get("email"),
+          telefono_cliente: formData.get("telefono") || "",
+          texto_cliente: formData.get("mensaje"),
+        };
+
+        emailjs
+          .send("service_7nt3vmn", "template_1164go6", templateParams)
+          .then(
+            function () {
+              contactForm.submit();
+            },
+            function (error) {
+              console.error("EmailJS falló:", error);
+              contactForm.submit(); // Enviar de todos modos para que quede en base de datos
+            },
+          );
+      });
+    }
+  });
+</script>
