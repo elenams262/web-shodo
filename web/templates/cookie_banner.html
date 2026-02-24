@@ -1,0 +1,203 @@
+<!-- Cookie Banner Container -->
+<div
+  id="cookieBanner"
+  class="cookie-banner-container"
+  style="
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    padding: 20px 0;
+    font-size: 14px;
+    border-top: 2px solid #fd8279;
+  "
+>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8 mb-3 mb-lg-0 text-center text-lg-start">
+        <p class="mb-0 text-dark">
+          <strong>Utilizamos cookies</strong> para garantizar el correcto
+          funcionamiento de nuestra web y analizar su uso. Puede aceptar todas
+          las cookies, rechazarlas (solo se usarán las estrictamente necesarias)
+          o configurarlas. Para más información, consulte nuestra
+          <a
+            href="{% url 'cookies' %}"
+            class="text-decoration-none fw-bold"
+            style="color: #fd8279"
+            >Política de Cookies</a
+          >.
+        </p>
+      </div>
+      <div class="col-lg-4 text-center text-lg-end">
+        <button
+          id="btnConfigCookies"
+          class="btn btn-outline-secondary btn-sm mb-2 mb-sm-0 me-sm-2 fw-bold"
+          data-bs-toggle="modal"
+          data-bs-target="#cookieConfigModal"
+        >
+          Configurar
+        </button>
+        <button
+          id="btnRejectCookies"
+          class="btn btn-secondary btn-sm mb-2 mb-sm-0 me-sm-2 fw-bold"
+        >
+          Rechazar
+        </button>
+        <button
+          id="btnAcceptCookies"
+          class="btn btn-primary btn-sm mb-2 mb-sm-0 fw-bold"
+          style="background-color: #fd8279; border-color: #fd8279"
+        >
+          Aceptar Todas
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cookie Config Modal -->
+<div
+  class="modal fade"
+  id="cookieConfigModal"
+  tabindex="-1"
+  aria-labelledby="cookieConfigModalLabel"
+  aria-hidden="true"
+  style="z-index: 10000"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold" id="cookieConfigModalLabel">
+          Configuración de Cookies
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body text-start">
+        <p class="small text-muted mb-4">
+          A continuación puede configurar las cookies que desea permitir en su
+          navegador. Tenga en cuenta que algunas cookies son estrictamente
+          necesarias para el funcionamiento del sitio web.
+        </p>
+
+        <div class="form-check form-switch mb-3 p-3 bg-light rounded">
+          <input
+            class="form-check-input ms-0 me-3 mt-1"
+            type="checkbox"
+            id="cookieTech"
+            checked
+            disabled
+          />
+          <label class="form-check-label fw-bold d-block" for="cookieTech"
+            >Cookies Técnicas (Estrictamente Necesarias)</label
+          >
+          <p class="small text-muted mb-0 mt-1">
+            Son imprescindibles para el correcto funcionamiento de los
+            formularios, inicio de sesión y la seguridad de la web. No se pueden
+            desactivar en nuestro sistema.
+          </p>
+        </div>
+
+        <div class="form-check form-switch mb-3 p-3 bg-light rounded">
+          <input
+            class="form-check-input ms-0 me-3 mt-1"
+            type="checkbox"
+            id="cookieAnalytics"
+          />
+          <label class="form-check-label fw-bold d-block" for="cookieAnalytics"
+            >Cookies de Análisis y Rendimiento</label
+          >
+          <p class="small text-muted mb-0 mt-1">
+            Nos permiten cuantificar el número de usuarios y así realizar la
+            medición y análisis estadístico de la utilización del servicio.
+            (Actualmente no recopilamos este tipo de datos).
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          data-bs-dismiss="modal"
+        >
+          Cerrar
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary fw-bold"
+          id="btnSaveCookieConfig"
+          style="background-color: #fd8279; border-color: #fd8279"
+        >
+          Guardar Configuración
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const cookieBanner = document.getElementById("cookieBanner");
+    const acceptBtn = document.getElementById("btnAcceptCookies");
+    const rejectBtn = document.getElementById("btnRejectCookies");
+    const saveConfigBtn = document.getElementById("btnSaveCookieConfig");
+
+    // Check if user has already made a choice
+    if (!localStorage.getItem("cookieConsent")) {
+      cookieBanner.style.display = "block";
+    }
+
+    function hideBanner() {
+      cookieBanner.style.display = "none";
+    }
+
+    acceptBtn.addEventListener("click", function () {
+      localStorage.setItem("cookieConsent", "accepted");
+      localStorage.setItem("cookieAnalytics", "true");
+      hideBanner();
+    });
+
+    rejectBtn.addEventListener("click", function () {
+      localStorage.setItem("cookieConsent", "rejected");
+      localStorage.setItem("cookieAnalytics", "false");
+      hideBanner();
+    });
+
+    saveConfigBtn.addEventListener("click", function () {
+      const analyticsChecked =
+        document.getElementById("cookieAnalytics").checked;
+      localStorage.setItem("cookieConsent", "configured");
+      localStorage.setItem(
+        "cookieAnalytics",
+        analyticsChecked ? "true" : "false",
+      );
+
+      try {
+        const modalEl = document.getElementById("cookieConfigModal");
+        const modal = bootstrap.Modal.getInstance(modalEl);
+        if (modal) {
+          modal.hide();
+        }
+      } catch (e) {
+        console.error("Bootstrap modal hide error:", e);
+      }
+      hideBanner();
+    });
+
+    // Sync checkbox with localStorage values in case they reopen it later
+    const analyticsCheckbox = document.getElementById("cookieAnalytics");
+    if (localStorage.getItem("cookieAnalytics") === "true") {
+      analyticsCheckbox.checked = true;
+    } else {
+      analyticsCheckbox.checked = false;
+    }
+  });
+</script>

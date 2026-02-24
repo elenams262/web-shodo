@@ -466,29 +466,21 @@
 
       <h2 class="h4 mt-4 mb-3">COOKIES</h2>
       <p>
-        La empresa se reserva el derecho de utilizar la tecnología “cookie” en
-        el Espacio Web, a fin de reconocerlo como Usuario frecuente y
-        personalizar el uso que realice del Espacio Web mediante la preselección
-        de su idioma, o contenidos más deseados o específicos. Las cookies
-        recopilan la dirección IP del usuario siendo Google el responsable del
-        tratamiento de esta información.
+        La empresa utiliza únicamente cookies técnicas y estrictamente
+        necesarias para garantizar el correcto funcionamiento y la seguridad del
+        Espacio Web.
       </p>
       <p>
         Las cookies son ficheros enviados a un navegador, por medio de un
-        servidor Web, para registrar la navegación del Usuario en el Espacio
-        Web, cuando el Usuario permita su recepción. Si usted lo desea puede
-        configurar su navegador para ser avisado en pantalla de la recepción de
-        cookies y para impedir la instalación de cookies en su disco duro. Por
-        favor consulte las instrucciones y manuales de su navegador para ampliar
-        esta información.
+        servidor Web, para registrar la navegación del Usuario en el Espacio Web
+        y posibilitar la funcionalidad de este. De acuerdo con la normativa
+        vigente, al tratarse exclusivamente de cookies técnicas, no se requiere
+        el consentimiento expreso del usuario para su instalación.
       </p>
       <p>
-        Gracias a las cookies, resulta posible que se pueda reconocer el
-        navegador del ordenador utilizado por el Usuario con la finalidad de
-        facilitar contenidos y ofrecer las preferencias de navegación u
-        publicitarias que el Usuario, a los perfiles demográficos de los
-        Usuarios así como para medir las visitas y parámetros del tráfico,
-        controlar el progreso y número de entradas.
+        Para obtener información más detallada sobre las cookies concretas que
+        utilizamos y sus características, el Usuario puede consultar nuestra
+        <a href="{% url 'cookies' %}">Política de Cookies</a>.
       </p>
 
       <h2 class="h4 mt-4 mb-3">DECLARACIONES Y GARANTÍAS</h2>
@@ -585,5 +577,6 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    {% include 'cookie_banner.html' %}
   </body>
 </html>

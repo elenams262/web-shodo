@@ -84,45 +84,33 @@
         ¿Qué tipos de cookies utiliza esta página web?
       </h2>
       <p>
-        A continuación se identifican las cookies que están siendo utilizadas en
-        este sitio web así como su tipología y función:
+        Este sitio web utiliza únicamente
+        <strong>cookies técnicas y estrictamente necesarias</strong>. Estas
+        cookies son fundamentales para el correcto funcionamiento de la página
+        web y no pueden ser desactivadas en nuestros sistemas.
       </p>
       <ul>
         <li>
-          <strong>Cookies de análisis:</strong> Son aquéllas que bien tratadas
-          por nosotros o por terceros, nos permiten cuantificar el número de
-          usuarios y así realizar la medición y análisis estadístico de la
-          utilización que hacen los usuarios del servicio ofertado. Para ello se
-          analiza su navegación en nuestra página web con el fin de mejorar la
-          oferta de productos o servicios que le ofrecemos.
+          <strong>csrftoken:</strong> Cookie técnica de seguridad, propia del
+          sistema que utilizamos (Django). Su finalidad es prevenir ataques de
+          falsificación de peticiones en sitios cruzados (Cross-Site Request
+          Forgery). Es estrictamente necesaria para el funcionamiento seguro de
+          los formularios de la web. Duración: 1 año.
         </li>
         <li>
-          <strong>Cookies publicitarias:</strong> Son aquéllas que, bien
-          tratadas por nosotros o por terceros, permiten la gestión, de la forma
-          más eficaz posible, de los espacios publicitarios que, en su caso, el
-          editor haya incluido en una página web, aplicación o plataforma desde
-          la que presta el servicio solicitado en base a criterios como el
-          contenido editado o la frecuencia en la que se muestran los anuncios.
-        </li>
-        <li>
-          <strong>Cookies de publicidad comportamental:</strong> Son aquéllas
-          que permiten la gestión, de la forma más eficaz posible, de los
-          espacios publicitarios que, en su caso, el editor haya incluido en una
-          página web, aplicación o plataforma desde la que presta el servicio
-          solicitado. Estas cookies almacenan información del comportamiento de
-          los usuarios obtenida a través de la observación continuada de sus
-          hábitos de navegación, lo que permite desarrollar un perfil específico
-          para mostrar publicidad en función del mismo.
+          <strong>sessionid:</strong> Cookie técnica alfanumérica generada por
+          el sistema. Se utiliza para identificar y mantener iniciada la sesión
+          del usuario si accede a áreas privadas o al panel de administración
+          del sitio web. Duración: sesión (se elimina al cerrar el navegador).
         </li>
       </ul>
       <p>
-        Asimismo es posible que al visitar alguna página web o al abrir algún
-        email donde se publique algún anuncio o alguna promoción sobre nuestros
-        productos o servicios se instale en tu navegador alguna cookie que nos
-        sirva para mostrarte posteriormente publicidad relacionada con la
-        búsqueda que hayas realizado, desarrollar un control de nuestros
-        anuncios en relación, por ejemplo, con el número de veces que son
-        vistos, donde aparecen, a qué hora se ven, etc.
+        <strong>Consentimiento:</strong> Al tratarse únicamente de cookies
+        técnicas y estrictamente necesarias para el funcionamiento del sitio
+        web, no se requiere el consentimiento expreso del usuario para su
+        instalación, de acuerdo con las excepciones previstas en el artículo
+        22.2 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de
+        la Información y de Comercio Electrónico (LSSI-CE).
       </p>
 
       <h2 class="h4 mt-4 mb-3">Revocación y eliminación de cookies</h2>
@@ -156,29 +144,11 @@
         </li>
       </ul>
 
-      <h2 class="h4 mt-4 mb-3">Terceros prestadores de servicios</h2>
+      <h2 class="h4 mt-4 mb-3">Cookies de terceros</h2>
       <p>
-        En concreto los terceros prestadores de servicios con los que hemos
-        contratado algún servicio para el que es necesario la utilización de
-        cookies son:
+        Este sitio web no utiliza cookies de terceros con fines analíticos,
+        publicitarios ni de comportamiento.
       </p>
-      <ul>
-        <li>
-          <strong>Google Analytics:</strong> (Google Inc.) Servicio de análisis
-          web que utiliza cookies para analizar el uso que hacen los usuarios
-          del sitio web. La información que genera la cookie acerca de su uso
-          del sitio web (incluyendo su dirección IP) será directamente
-          transmitida y archivada por Google en los servidores de Estados
-          Unidos. Google usará esta información por cuenta nuestra con el
-          propósito de seguir la pista de su uso del sitio web, recopilando
-          informes de la actividad del sitio web y prestando otros servicios
-          relacionados con la actividad del sitio web y el uso de Internet.
-          Google podrá transmitir dicha información a terceros cuando así se lo
-          requiera la legislación, o cuando dichos terceros procesen la
-          información por cuenta de Google. Google no asociará su dirección IP
-          con ningún otro dato del que disponga Google.
-        </li>
-      </ul>
       <!-- Aquí iría el resto del contenido legal -->
     </div>
 
@@ -232,5 +202,6 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    {% include 'cookie_banner.html' %}
   </body>
 </html>
