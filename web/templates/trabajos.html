@@ -85,13 +85,13 @@
             />
             {% endif %}
             <div class="card-body">
-              <h5 class="card-title">{{ t.titulo }}</h5>
+              <h5 class="card-title text-dark fw-bold">{{ t.titulo }}</h5>
 
               <div
                 class="collapse show multi-collapse-{{ t.pk }}"
                 id="desc-short-{{ t.pk }}"
               >
-                <p class="card-text text-secondary">
+                <p class="card-text text-white">
                   {{ t.descripcion|truncatewords:15 }}
                 </p>
               </div>
@@ -100,7 +100,7 @@
                 class="collapse multi-collapse-{{ t.pk }}"
                 id="desc-full-{{ t.pk }}"
               >
-                <p class="card-text text-secondary">
+                <p class="card-text text-white">
                   {{ t.descripcion|linebreaksbr }}
                 </p>
               </div>
