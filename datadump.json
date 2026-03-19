@@ -1,0 +1,566 @@
+[
+{
+  "model": "web.trabajo",
+  "pk": 1,
+  "fields": {
+    "titulo": "Acompañamiento Sociosanitario",
+    "descripcion": "Acompañamiento Sanitario nos ha confiado la creación de su logotipo después de compartir con nosotros su idea de negocio, valores y filosofía.\r\nTambién estamos trabajando en el desarrollo de su página web: www.acompanamientosanitario.com\r\nDado que el proceso de creación es meticuloso, aún queda trabajo por hacer en colaboración.",
+    "fecha_creacion": "2026-02-19T13:34:21.598Z",
+    "imagen": "image/upload/v1771513528/d4uwbykkrrbgrukvicqw.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 2,
+  "fields": {
+    "titulo": "Seyeva Moda",
+    "descripcion": "Eva tenía una tienda física, pero decidió cerrarla para enfocarse en las ventas online.\r\nNos contactó para que la ayudáramos a crear su página web, y eso hicimos.\r\nActualmente, su negocio está inactivo mientras realiza trámites y establece su empresa.\r\nEcha un vistazo: www.seyevamoda.com\r\nGracias por elegirnos y seguir confiando en nuestro trabajo.",
+    "fecha_creacion": "2026-02-19T13:34:40.403Z",
+    "imagen": "image/upload/v1771513567/d4haaebv5m6hbkzqy44b.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 3,
+  "fields": {
+    "titulo": "Comunión de Daniel",
+    "descripcion": "Daniel hizo la comunión el pasado 18 de mayo y sus papás quisieron sorprenderle con un fotomatón.\r\nA Dani le encanta Fornite, el Atlético de Madrid y Mario Bross, por eso nos encargamos de que se llevase un recuerdo lo más personalizado posible.\r\nHaz click y mira el video de este evento.",
+    "fecha_creacion": "2026-02-19T13:35:02.226Z",
+    "imagen": "image/upload/v1771513636/lzxuhvqb3ilebaaeyhr0.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 4,
+  "fields": {
+    "titulo": "Página web ADISGUA",
+    "descripcion": "La Asociación de Personas con Discapacidad del Guadarrama contactó con nosotros y Crear&Comunicar para crear desde cero su página web.\r\nNos pidieron www.adisgua.org tuviese claridad y sencillez para el usuario.\r\nAhora nos han encargado la elaboración de la página web de la Fundación.\r\nGracias por confiar y apostar por nosotros.",
+    "fecha_creacion": "2026-02-19T13:35:19.249Z",
+    "imagen": "image/upload/v1771513653/y7v9mhrjvszb8zl6npb6.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 5,
+  "fields": {
+    "titulo": "Comunión de Sofía",
+    "descripcion": "Los papás de Sofía contactaron con nosotros para asistir la celebración de la comunión de la pequeña de la casa.\r\nFue una celebración muy especial porque se juntaron familia de Córdoba, Galicia y Madrid. ¡Fue un no parar!\r\nTodos querían hacerse fotos con los abuelos, los tíos, los primos… NORMAL. Se ven cada mucho tiempo y es un gran recuerdo poder llevarse una foto del fotomatón.",
+    "fecha_creacion": "2026-02-19T13:35:34.508Z",
+    "imagen": "image/upload/v1771513668/zh0mkfvce4sjspjvmnem.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 6,
+  "fields": {
+    "titulo": "Medias Pintas",
+    "descripcion": "Puede que este proyecto sea de los más divertidos.\r\nEl grupo de música ‘Medias Pintas’ nos ha hacho parte de su Staff.\r\nNuestro trabajo consiste en asistir a sus conciertos y crear contenido audiovisual para sus RRSS, además de llevas a cabo varia estrategias.",
+    "fecha_creacion": "2026-02-19T13:35:56.899Z",
+    "imagen": "image/upload/v1771513712/qgi9rorcubyph2obkb3u.png"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 7,
+  "fields": {
+    "titulo": "Boda de Irene y Trevor",
+    "descripcion": "El sábado 14 de septiembre asistimos a la boda de Irene y Trevor, que se celebró en la Finca el Venero en Navaluenga\r\nAmigos y familiares de España y Estados Unidos disfrutaron con nuestro fotomatón y se llevaron un bonito recuerdo",
+    "fecha_creacion": "2026-02-19T13:36:20.903Z",
+    "imagen": "image/upload/v1771513737/rod3iwxw89sfrwxta9lb.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 8,
+  "fields": {
+    "titulo": "Centro Hope Colege",
+    "descripcion": "El centro de psicoterapia Centro Hope College ha iniciado una colaboración con Shodo para mejorar sus página web y sus redes sociales.\r\nTienen un proyecto precioso y estamos encantados de formar parte de él.",
+    "fecha_creacion": "2026-02-19T13:36:44.918Z",
+    "imagen": "image/upload/v1771513757/mgmbhy82ofefjk8bwdvc.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 9,
+  "fields": {
+    "titulo": "50 Cumpleaños de Maribel",
+    "descripcion": "El sábado 28 de septiembre Maribel nos invitó a la celebración de sus 50 años, donde se reunieron amigos y familia para pasarlo en grande en La Favorita, y se llevaron un bonito y original recuerdo.",
+    "fecha_creacion": "2026-02-19T13:37:02.466Z",
+    "imagen": "image/upload/v1771513778/gypz0omwfln7jlyidzwk.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 10,
+  "fields": {
+    "titulo": "1er Aniversario Revista MasVive",
+    "descripcion": "Hemos echo 1 año gestionando las RRSS y creando contenido audiovisual para la Revista del Noroeste de Madrid MasVive.\r\nUna alianza para llevar la actualidad a los vecinos de los municipios de forma neutral y transparente.\r\nVisita su web y sus redes y mantente al día.",
+    "fecha_creacion": "2026-02-19T13:37:16.183Z",
+    "imagen": "image/upload/v1771513792/axb5dv1iwuubsvldsz9g.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 11,
+  "fields": {
+    "titulo": "Comida navideña ITE & Ómicron",
+    "descripcion": "Fotomatón para las empresas ITE y Ómicron\r\nEl viernes 13 de diciembre asistimos a la comida de navidad de estas empresas, donde se juntaron trabajadores de toda España: Cádiz, Sevilla, Albacete…",
+    "fecha_creacion": "2026-02-19T13:37:30.596Z",
+    "imagen": "image/upload/v1771513830/wq2tur9sspi1lref3dro.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 12,
+  "fields": {
+    "titulo": "60 Cumpleaños Isabel",
+    "descripcion": "Las hijas de Isabel nos contactaron para darle la sorpresa de un fotomatón el día de su 60 cumpleaños que tuvo lugar en Las Rozas.",
+    "fecha_creacion": "2026-02-19T13:37:43.519Z",
+    "imagen": "image/upload/v1771513842/cqz04kciblk2mycahmep.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 13,
+  "fields": {
+    "titulo": "RagEntrenamiento",
+    "descripcion": "RagEntrenamiento es un centro de entrenamiento personal cuyo objetivo es la mejora de patologías y de la salud mediante el entrenamiento.\r\nEn conjunto, promocionaremos la app de entrenamiento y compartiremos contenido de valor en TikTok e Instagram",
+    "fecha_creacion": "2026-02-19T13:37:56.315Z",
+    "imagen": "image/upload/v1771513853/wg2q8neb9dbucj0gykax.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 14,
+  "fields": {
+    "titulo": "Web y RRSS de U.D. Villalba",
+    "descripcion": "Realizamos la página web del nuevo club: Unión Deportiva Villalba.\r\nAdemás, nos encargaremos del mantenimiento web y las RRSS durante la temporada 2025/26, donde cada fin de semana compartiremos los resultados, e informaremos de las novedades del club.",
+    "fecha_creacion": "2026-02-19T13:38:24.852Z",
+    "imagen": "image/upload/v1771513867/rbtlyej6ny1isxhsalyy.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 15,
+  "fields": {
+    "titulo": "People Be Brand",
+    "descripcion": "People Be nace hace muchos años en la zona norte de España.\r\nNos embarcamos en este proyecto de branding, creación y venta de camisetas y otros artículos con un mensaje inspirador: la ropa para perderse y encontrarse.\r\nCreamos contenido audiovisual, diseños gráficos, gestión de RRSS o creación del ecommerce entre otros tantos asuntos que requiere este proyecto.",
+    "fecha_creacion": "2026-02-19T13:38:38.968Z",
+    "imagen": "image/upload/v1771513879/cxxpldjdj3cf6xy2kxp2.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 16,
+  "fields": {
+    "titulo": "I Torneo Fútbol Femenino UD Villalba",
+    "descripcion": "El pasado 27 de diciembre, la UD Villalba se llenó de fútbol con jugadoras de todo Madrid. Una jornada de competición y mucha ilusión que no hubiera sido igual sin vosotros.\r\n\r\nDurante el torneo, sorteamos muchísimos premios gracias a la generosidad de los comercios de Collado Villalba que se sumaron a la iniciativa. ¡Enhorabuena a todos los ganadores de la rifa! \r\n\r\nGracias por apoyar el deporte femenino y por apostar por el comercio de nuestro municipio. ¡Nos vemos en la próxima!",
+    "fecha_creacion": "2026-02-19T13:39:04.468Z",
+    "imagen": "image/upload/v1771513890/ickwlrhosuevvpfk3bxl.webp"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 17,
+  "fields": {
+    "titulo": "App para Infantil Femenino UD Villalba",
+    "descripcion": "El club perdía horas valiosas introduciendo datos manualmente para que su web no quedara desfasada.\r\n\r\nLa Solución: Automatización Total\r\nHemos creado un sistema que se conecta directamente con la Real Federación de Fútbol de Madrid.\r\n\r\nSincronización automática: Extrae horarios, resultados y tablas en tiempo real.\r\n\r\nCero trabajo manual: La web se actualiza sola mientras tú te centras en el equipo.\r\n\r\nPanel de control: Gestión sencilla y segura para el administrador.\r\n\r\nResultado: Una web profesional, siempre al día y que ahorra el 100% del tiempo de carga de datos.",
+    "fecha_creacion": "2026-02-24T18:10:16.806Z",
+    "imagen": "image/upload/v1772016842/xa0gsmg8ktnrpfzxwzef.png"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 18,
+  "fields": {
+    "titulo": "App Calibrado Corporal",
+    "descripcion": "Hemos transformado la asesoría de Calibrado Corporal en una experiencia 100% digital, profesional y automática.\r\n\r\nEliminar el caos de las hojas de cálculo para ofrecer a los alumnos un seguimiento real, interactivo y motivador.\r\n\r\nEs un ecosistema digital donde el entrenador gestiona y el cliente entrena sin fricciones.\r\n\r\nPara el Entrenador: Un centro de mando para crear rutinas en segundos, gestionar vídeos de ejercicios y ver el progreso de todos sus alumnos de un vistazo.\r\n\r\nPara el Alumno: Una App en su móvil con su \"Plan del Día\", vídeos explicativos y un sistema para anotar sus sensaciones tras cada entreno.\r\n\r\nSeguimiento Real: Se acabó el \"creo que voy bien\". Ahora hay datos, métricas y feedback directo.\r\n\r\nResultado: Un servicio de entrenamiento de alto nivel que ahorra horas de oficina y fideliza al cliente desde el primer clic.",
+    "fecha_creacion": "2026-02-24T18:18:46.232Z",
+    "imagen": "image/upload/v1772016779/fwvqckghipht7aldmnx9.png"
+  }
+},
+{
+  "model": "web.trabajo",
+  "pk": 19,
+  "fields": {
+    "titulo": "Nueva web Acompañamiento Sociosanitario",
+    "descripcion": "Acompañamiento Sociosanitario nos encargó una web renovada y desarrollada con código con un panel de administrador para que pudiesen subir artículos a la web de una forma sencilla, además de poder gestionar mensajes de contactos y las reseñas recibidas.\r\n\r\nEl usuario tiene una mejor experiencia y la administradora mayor facilidad de gestión de la web.",
+    "fecha_creacion": "2026-02-24T18:24:16.988Z",
+    "imagen": "image/upload/v1771959985/cd1pplidbsv4xatttaxn.png"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 22,
+  "fields": {
+    "nombre": "Lorenza Greener",
+    "email": "greener.lorenza@outlook.com",
+    "telefono": "8508789352",
+    "mensaje": "Hello,\r\n\r\nSaw your site and figured this might be valuable.\r\n\r\nHere’s a free service that can help you submit your website across multiple classified sites with no manual posting.\r\n\r\nIf you want a simple visibility bump, check this out:\r\nwww.websubmitterpro.com\r\n\r\nIt’s completely free and takes almost no time.\r\n\r\nI can send more ways to promote your site if you want.",
+    "fecha_envio": "2026-02-25T22:32:36.008Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 23,
+  "fields": {
+    "nombre": "WKxRDqdsSEJnlcuqITIc",
+    "email": "i.lo.k.ur.iq.i.do.56@gmail.com",
+    "telefono": "4477900403",
+    "mensaje": "MohlWNuHMixWjUYTqJa",
+    "fecha_envio": "2026-02-26T07:21:15.264Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 24,
+  "fields": {
+    "nombre": "qivkFsceYDNbfvQiPbwi",
+    "email": "xuk.ul.a.to.ti085@gmail.com",
+    "telefono": "5202677898",
+    "mensaje": "EItGUBxWUvseKTmFVBpZBky",
+    "fecha_envio": "2026-02-26T10:05:59.936Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 25,
+  "fields": {
+    "nombre": "EYLaaNHcRSXtcGvazlriclP",
+    "email": "ub.u.w.i.x.ici.p.a.f52@gmail.com",
+    "telefono": "7184556309",
+    "mensaje": "QcVFIrDDmWRnvLKBPPFxzg",
+    "fecha_envio": "2026-03-01T07:49:58.625Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 26,
+  "fields": {
+    "nombre": "Shauna Swart",
+    "email": "swart.shauna@gmail.com",
+    "telefono": "9054607050",
+    "mensaje": "Reaching out,\r\n\r\nFound your site and wanted to share this.\r\n\r\nThere’s a free tool that lets you promote your site across multiple classified sites with just a few clicks.\r\n\r\nHere’s the link:\r\nclassifiedsubmitter.com\r\n\r\nIt’s totally free and takes almost no time.\r\n\r\nIf you want more free tools, let me know.",
+    "fecha_envio": "2026-03-02T13:45:43.614Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 27,
+  "fields": {
+    "nombre": "Dante Lomas",
+    "email": "admin@maxreviewflow.com",
+    "telefono": "4168405178",
+    "mensaje": "Can I confirm a small detail with you?",
+    "fecha_envio": "2026-03-04T04:43:50.699Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 28,
+  "fields": {
+    "nombre": "8054002077",
+    "email": "alexander.reid@jmailservice.com",
+    "telefono": "8054002077",
+    "mensaje": "Imagine someone typing in your exact service... and immediately seeing your brand.\r\n\r\nThat's what we provide.\r\n\r\nYou secure keyword phrases in your industry, and we deliver targeted traffic directly to your website.\r\n\r\nInterested in exploring it?\r\n\r\nSend:\r\n - Your website\r\n - The keywords you care about most\r\n\r\nI'll send traffic guarantees and pricing options.",
+    "fecha_envio": "2026-03-05T19:08:01.258Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 29,
+  "fields": {
+    "nombre": "Lizzie McCutcheon",
+    "email": "mccutcheon.lizzie@gmail.com",
+    "telefono": "7747748893",
+    "mensaje": "Hi,\r\n\r\nSaw your site and figured this might be valuable.\r\n\r\nHere’s a free service that can help you push your site out wider across multiple classified sites with almost no effort.\r\n\r\nIf you want to get listed quickly, here’s the site:\r\nwww.websubmitterpro.com\r\n\r\nIt’s 100% free to try and takes under a minute.\r\n\r\nIf you want more free traffic tools, let me know.",
+    "fecha_envio": "2026-03-07T05:14:35.732Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 30,
+  "fields": {
+    "nombre": "Thalia Freedman",
+    "email": "thalia.freedman@hotmail.com",
+    "telefono": "7879631880",
+    "mensaje": "Ever stop to think how much you're spending on marked-up CPMs for Connected TV ads?\r\nIf you're using “premium” audience segments without verifying who you're actually reaching, that money is likely feeding someone else's family.\r\nNo pressure. Here’s the site if you're open to see a revolutionary vision for digital advertising\r\ntopshelfaudience.com using real-time Intent data from an Integration in our platform to Lotame.com. You can reach me at marketing@mrmarketingres.com or 843-720-7301. And if this isn't a fit please feel free to email me and I'll be sure not to reach out again.  Thanks!",
+    "fecha_envio": "2026-03-10T21:52:00.973Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 31,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:17.891Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 32,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:28.240Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 33,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:35.648Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 34,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:36.049Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 35,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:41.472Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 36,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:43.369Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 37,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:44.657Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 38,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:55.939Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 39,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:32:59.330Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 40,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:33:14.080Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 41,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:33:24.951Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 42,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:33:30.142Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 43,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:33:32.456Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 44,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:33:37.755Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 45,
+  "fields": {
+    "nombre": "zghwxfwzng",
+    "email": "sfzivkyq@checkyourform.xyz",
+    "telefono": "+1-232-337-0477",
+    "mensaje": "nlizppyutlthpxoqgvnlkkhdypjokv",
+    "fecha_envio": "2026-03-11T05:33:41.256Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 46,
+  "fields": {
+    "nombre": "Samara Gantt",
+    "email": "samara.gantt@msn.com",
+    "telefono": "344449723",
+    "mensaje": "Hello,\r\n\r\nNoticed your business online and wanted to pass this along.\r\n\r\nThere’s a completely free tool that lets you get more exposure across multiple classified sites with a single submission.\r\n\r\nHere’s the URL:\r\nwww.classifiedsubmitter.com\r\n\r\nIt’s totally free and takes seconds.\r\n\r\nReply if you want more ways to promote your site.",
+    "fecha_envio": "2026-03-11T09:40:01.088Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 47,
+  "fields": {
+    "nombre": "Reginald Reading",
+    "email": "reading.reginald3@googlemail.com",
+    "telefono": "637170489",
+    "mensaje": "Scale your arbitrage operations instantly with FlipNinja’s AI, which automates the hunt for 50%–500% profit flips across Amazon, Walmart, and AliExpress. Secure an unfair data advantage for a one-time $17 investment and stop guessing where your next high-margin deal is coming from.\r\n\r\nhttps://www.youtube.com/watch?v=FgXeh1S8NXg",
+    "fecha_envio": "2026-03-12T12:55:34.358Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 48,
+  "fields": {
+    "nombre": "Candace Ievers",
+    "email": "ievers.candace@outlook.com",
+    "telefono": "476523983",
+    "mensaje": "Hey! I just wanted to share a shopping tool I’ve been using lately - https://flashlinx.com/1005\r\n\r\nIt helps you save money on everyday household items by showing the real price per unit and sorting products from lowest to highest, so you can quickly see which option is actually the best value.\r\n\r\nIt’s completely free to use, and there’s no signup required. If you regularly compare prices or try to stretch your grocery or household budget, it might be useful to check out.",
+    "fecha_envio": "2026-03-13T18:28:51.578Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 49,
+  "fields": {
+    "nombre": "Maik Ievers",
+    "email": "ievers.maik@msn.com",
+    "telefono": "484172906",
+    "mensaje": "Hello,\r\n\r\nI came across your website and wanted to share something useful.\r\n\r\nHere’s a free service that can help you promote your site across multiple classified sites with a single submission.\r\n\r\nIf you want a quick visibility boost, here’s the URL:\r\nhttps://sitesubmissionspider.com\r\n\r\nIt’s completely free and takes seconds.\r\n\r\nJust reply if you want more ideas.",
+    "fecha_envio": "2026-03-15T11:05:57.472Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 50,
+  "fields": {
+    "nombre": "Alda Gregson",
+    "email": "gregson.alda@outlook.com",
+    "telefono": "269554847",
+    "mensaje": "Just reaching out,\r\n\r\nNot sure if you're promoting your site right now, but this could help.\r\n\r\nHere’s a free service that can help you push your site out wider across multiple classified sites with almost no effort.\r\n\r\nIf you want more eyes on your site, use this:\r\nwebsubmitterpro.com\r\n\r\nIt’s 100% free to try and takes almost no time.\r\n\r\nIf you want more free traffic tools, let me know.",
+    "fecha_envio": "2026-03-17T20:16:36.765Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 51,
+  "fields": {
+    "nombre": "Theodore Charette",
+    "email": "charette.theodore@hotmail.com",
+    "telefono": "4549441691",
+    "mensaje": "Are you tired of \"generic AI\" spitting out robotic, soulless text that readers instantly reject? Most aspiring publishers fail because they try to sell \"Wikipedia articles\" to parents who are searching for a lifeline at 2 AM, not a dry textbook,. You’re likely missing out on this recession-proof goldmine because you think you need a PhD or months of free time to write something that actually sells,. While you hesitate, the \"Generic AI\" gold rush is ending, and specialized niche dominators are taking over the 140-million-parent market.\r\n\r\nhttps://java138.site/ParentingRoyaltiesBot\r\n\r\nStop fighting the algorithm and start dominating with the Parenting Royalties Bot. We’ve stripped away the \"generalist\" fluff of ChatGPT to build a precision-engineered machine that writes with the emotional warmth and psychological depth of a family therapist,. For just $17.88, this bot handles the entire pipeline: it identifies high-demand topics, maps emotional arcs, creates five-star covers, and generates the exact keywords to stop the scroll,,. Claim your unfair advantage and go from a blank page to a published Amazon author in under 30 minutes before the launch price expires!,,.\r\n\r\nhttps://java138.site/ParentingRoyaltiesBot\r\n\r\nYou’re receiving this email \r\nsince we believe \r\nour offer \r\ncould be useful to you.\r\n\r\nIf you would prefer not to receive \r\nfurther communications from us, \r\nsimply \r\nopt out:\r\n\r\nhttps://java138.site/unsub?domain=shodomarketing.com \r\nAddress: Address: 3017   Hojdstigen 35, NA  293 28\r\nLooking out for you, Theodore Charette.",
+    "fecha_envio": "2026-03-17T20:56:37.352Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 52,
+  "fields": {
+    "nombre": "8054002077",
+    "email": "eric.warren@jmailservice.com",
+    "telefono": "8054002077",
+    "mensaje": "We place your business at the top when people search for your services.\r\n\r\nInterested in seeing if your main keywords are available?\r\n\r\nReply with:\r\n - Your website\r\n - Your keyword list\r\n\r\nI'll send traffic estimates and next steps.",
+    "fecha_envio": "2026-03-18T10:43:25.339Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 53,
+  "fields": {
+    "nombre": "Chloe Reagan",
+    "email": "chloe.reagan@gmail.com",
+    "telefono": "604275699",
+    "mensaje": "You’ve poured months of hard work and your entire soul into your manuscript, but the reality is harsh: your book is effectively \"invisible\" in the vast ocean of Amazon. You’re spending more time struggling with marketing and endless social media posting than actually writing, leading to total burnout. It’s soul-crushing to watch lower-quality books outrank yours simply because those authors have the time for promotion while you don't.\r\n\r\nhttps://ggplaybos.site/AISalesRocket\r\n\r\nAI Sales Rocket is your personal 24/7 traffic engine designed to take you from \"invisible to in-demand\". Using a \"Publish-Once-Promote-Everywhere\" system, the AI automatically generates fresh content and promotes your book across all social media accounts on total autopilot. Stop wasting energy on buggy scripts and broken promises; this is a robust, professional solution that keeps driving real traffic to your books day after day while you focus on your next masterpiece.\r\n\r\nhttps://ggplaybos.site/AISalesRocket\r\n\r\nYou are receiving this message \r\nbecause we believe \r\nour offer \r\ncould be relevant to you.\r\n\r\nIf you no longer wish to get \r\nany more messages from us, \r\nsimply \r\nstop receiving emails:\r\n\r\nhttps://ggplaybos.site/unsub?domain=shodomarketing.com \r\nAddress: Address: 5023   Ul. Przestrzenna 55, NA  93-432\r\nLooking out for you, Chloe Reagan.",
+    "fecha_envio": "2026-03-18T16:21:50.812Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 54,
+  "fields": {
+    "nombre": "Audry Harkins",
+    "email": "harkins.audry42@msn.com",
+    "telefono": "476708490",
+    "mensaje": "Hi,\r\n\r\nWhy you need this: to have every campaign, affiliate offer, or project start delivering traffic and income today — without spending a dime on ads or tech headaches. Ghost Pages turns you into a stealth engine that Google absolutely trusts: you build invisible pages using a secret Google asset, and they quietly start delivering targeted visitors — while your competition is nowhere the wiser.\r\n\r\nIt’s easy, it’s fast, it’s genius: no domains, hosting, social media, or technical skills required — if you can click and copy, you can do this. Plus, it really works and scales: launch one Ghost Page and BAM — traffic flows wherever you want: affiliate links, e‑com, leads — you choose. Ready to start in minutes? Discover how and get results that might blow your mind.\r\n\r\nSee it in action: https://deluna101a.site/GhostPages\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nYou are receiving this message because we believe our offer may be relevant to you. \r\nIf you do not wish to receive further communications from us, please click here to UNSUBSCRIBE:\r\nhttps://deluna101a.site/unsub?domain=shodomarketing.com \r\nAddress: Address: 1464 Lewis Street Roselle, IL 60177\r\nLooking out for you, Michael Turner.",
+    "fecha_envio": "2026-03-18T22:48:47.937Z"
+  }
+},
+{
+  "model": "web.mensajecontacto",
+  "pk": 55,
+  "fields": {
+    "nombre": "Keith Costas",
+    "email": "keith.costas@gmail.com",
+    "telefono": "9203122087",
+    "mensaje": "Have you ever dreamed of breaking into the book market, only to be crushed by the reality of how hard it actually is? The \"old way\" of creating children's books is a total grind: you need to write a compelling story, find professional illustrators, and master complex design tools. For most people, creating just one personalized book takes days or even weeks, making it impossible to build a real, scalable business. This massive barrier to entry has kept you stuck on the sidelines while a few \"insiders\" dominate one of the hottest niches in the world.\r\n\r\nhttps://bookmarket.expert/StoryHero\r\n\r\nStoryHero shatters that barrier by using advanced AI to generate fully illustrated, personalized kids' books in just 5 minutes. You no longer need writing skills, design experience, or a massive budget to tap into a market where parents gladly pay $20, $30, or even $50 for a single book. For a one-time investment of just $17, you get the exact tools and the $6 million case study that will allow you to stop accepting mediocrity and finally start building the life of your dreams.\r\n\r\nhttps://bookmarket.expert/StoryHero\r\n\r\nThis message is sent to you \r\nbecause we believe \r\nour offer \r\nmay be relevant to you.\r\n\r\nIf you would prefer not to receive \r\nadditional emails from us, \r\nyou can \r\nunsubscribe:\r\n\r\nhttps://bookmarket.expert/unsub?domain=shodomarketing.com \r\nAddress: Address: 8492   3337 Hartland Avenue, WI  54913\r\nLooking out for you, Keith Costas.",
+    "fecha_envio": "2026-03-19T05:42:25.915Z"
+  }
+}
+]
