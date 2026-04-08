@@ -1,1 +1,1 @@
-web: python create_superuser.py && gunicorn Shodo.wsgi
+web: python manage.py migrate && gunicorn Shodo.wsgi
