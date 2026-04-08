@@ -1,0 +1,173 @@
+[
+  {
+    "model": "web.trabajo",
+    "pk": 6,
+    "fields": {
+      "titulo": "Acompañamiento Sociosanitario",
+      "descripcion": "Acompañamiento Sanitario nos ha confiado la creación de su logotipo después de compartir con nosotros su idea de negocio, valores y filosofía.\r\n\r\nTambién estamos trabajando en el desarrollo de su página web: https://www.acompanamientosociosanitario.com/\r\n\r\nDado que el proceso de creación es meticuloso, aún queda trabajo por hacer en colaboración.",
+      "fecha_creacion": "2026-02-19 10:42:02.333843",
+      "imagen": "trabajos/acompañamiento-sanitario_ZFgPSf8.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 7,
+    "fields": {
+      "titulo": "Seyeva Moda",
+      "descripcion": "Eva tenía una tienda física, pero decidió cerrarla para enfocarse en las ventas online.\r\n\r\nNos contactó para que la ayudáramos a crear su página web, y eso hicimos.\r\n\r\nActualmente, su negocio está inactivo mientras realiza trámites y establece su empresa.\r\n\r\nEcha un vistazo: www.seyevamoda.com\r\n\r\nGracias por elegirnos y seguir confiando en nuestro trabajo.",
+      "fecha_creacion": "2026-02-19 10:43:22.422432",
+      "imagen": "trabajos/seyeva.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 8,
+    "fields": {
+      "titulo": "Comunión de Daniel",
+      "descripcion": "Daniel hizo la comunión el pasado 18 de mayo y sus papás quisieron sorprenderle con un fotomatón.\r\n\r\nA Dani le encanta Fornite, el Atlético de Madrid y Mario Bross, por eso nos encargamos de que se llevase un recuerdo lo más personalizado posible.\r\n\r\nHaz click y mira el video de este evento.",
+      "fecha_creacion": "2026-02-19 10:43:49.967258",
+      "imagen": "trabajos/comuniodn-daniel.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 9,
+    "fields": {
+      "titulo": "Página Web Adisgua",
+      "descripcion": "La Asociación de Personas con Discapacidad del Guadarrama contactó con nosotros y Crear&Comunicar para crear desde cero su página web.\r\n\r\nNos pidieron www.adisgua.org tuviese claridad y sencillez para el usuario.\r\n\r\nAhora nos han encargado la elaboración de la página web de la Fundación.\r\n\r\nGracias por confiar y apostar por nosotros.",
+      "fecha_creacion": "2026-02-19 10:44:28.767152",
+      "imagen": "trabajos/adisgua.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 10,
+    "fields": {
+      "titulo": "Comunión de Sofía",
+      "descripcion": "Los papás de Sofía contactaron con nosotros para asistir la celebración de la comunión de la pequeña de la casa.\r\n\r\nFue una celebración muy especial porque se juntaron familia de Córdoba, Galicia y Madrid. ¡Fue un no parar!\r\n\r\nTodos querían hacerse fotos con los abuelos, los tíos, los primos… NORMAL. Se ven cada mucho tiempo y es un gran recuerdo poder llevarse una foto del fotomatón.",
+      "fecha_creacion": "2026-02-19 10:47:54.191349",
+      "imagen": "trabajos/comunion-sofia.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 11,
+    "fields": {
+      "titulo": "Medias Pintas",
+      "descripcion": "Puede que este proyecto sea de los más divertidos.\r\n\r\nEl grupo de música ‘Medias Pintas’ nos ha hacho parte de su Staff.\r\n\r\nNuestro trabajo consiste en asistir a sus conciertos y crear contenido audiovisual para sus RRSS, además de llevas a cabo varia estrategias.",
+      "fecha_creacion": "2026-02-19 10:48:44.501090",
+      "imagen": "trabajos/medias-pintas.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 12,
+    "fields": {
+      "titulo": "Boda de Irene y Trevor",
+      "descripcion": "El sábado 14 de septiembre asistimos a la boda de Irene y Trevor, que se celebró en la Finca el Venero en Navaluenga\r\n\r\nAmigos y familiares de España y Estados Unidos disfrutaron con nuestro fotomatón y se llevaron un bonito recuerdo",
+      "fecha_creacion": "2026-02-19 10:49:05.663507",
+      "imagen": "trabajos/boda-irene-trevor.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 13,
+    "fields": {
+      "titulo": "Colaboración con Centro Hope Colege",
+      "descripcion": "El centro de psicoterapia Centro Hope College ha iniciado una colaboración con Shodo para mejorar sus página web y sus redes sociales.\r\n\r\nTienen un proyecto precioso y estamos encantados de formar parte de él.",
+      "fecha_creacion": "2026-02-19 10:50:05.383814",
+      "imagen": "trabajos/centro-hope.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 14,
+    "fields": {
+      "titulo": "50 Cumpleaños de Maribel",
+      "descripcion": "El sábado 28 de septiembre Maribel nos invitó a la celebración de sus 50 años, donde se reunieron amigos y familia para pasarlo en grande en La Favorita, y se llevaron un bonito y original recuerdo.",
+      "fecha_creacion": "2026-02-19 10:50:26.490178",
+      "imagen": "trabajos/cumpleaños-maribel.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 15,
+    "fields": {
+      "titulo": "1er Aniversario Revista MasVive",
+      "descripcion": "Hemos echo 1 año gestionando las RRSS y creando contenido audiovisual para la Revista del Noroeste de Madrid MasVive.\r\n\r\nUna alianza para llevar la actualidad a los vecinos de los municipios de forma neutral y transparente.\r\n\r\nVisita su web y sus redes y mantente al día.",
+      "fecha_creacion": "2026-02-19 10:50:55.269286",
+      "imagen": "trabajos/masvive.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 16,
+    "fields": {
+      "titulo": "Comida navideña ITE & Ómicron",
+      "descripcion": "Fotomatón para las empresas ITE y Ómicron\r\n\r\nEl viernes 13 de diciembre asistimos a la comida de navidad de estas empresas, donde se juntaron trabajadores de toda España: Cádiz, Sevilla, Albacete…",
+      "fecha_creacion": "2026-02-19 10:52:01.896588",
+      "imagen": "trabajos/comida-navidad-ITE-omicron.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 17,
+    "fields": {
+      "titulo": "60 Cumpleaños Isabel",
+      "descripcion": "Las hijas de Isabel nos contactaron para darle la sorpresa de un fotomatón el día de su 60 cumpleaños que tuvo lugar en Las Rozas.",
+      "fecha_creacion": "2026-02-19 10:52:19.108333",
+      "imagen": "trabajos/cumple-isabel.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 18,
+    "fields": {
+      "titulo": "Colaboración con RagEntrenamiento",
+      "descripcion": "RagEntrenamiento es un centro de entrenamiento personal cuyo objetivo es la mejora de patologías y de la salud mediante el entrenamiento.\r\n\r\nEn conjunto, promocionaremos la app de entrenamiento y compartiremos contenido de valor en TikTok e Instagram",
+      "fecha_creacion": "2026-02-19 10:52:36.821031",
+      "imagen": "trabajos/rag-entrenamiento.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 19,
+    "fields": {
+      "titulo": "Web y RRSS U.D. Villalba",
+      "descripcion": "Realizamos la página web del nuevo club: Unión Deportiva Villalba.\r\n\r\nAdemás, nos encargaremos del mantenimiento web y de las RRSS durante la temporada 2025/26, donde cada fin de semana compartiremos los resultados, e informaremos de las novedades del club.",
+      "fecha_creacion": "2026-02-19 10:53:40.980842",
+      "imagen": "trabajos/udvillalba.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 20,
+    "fields": {
+      "titulo": "People Be Brand",
+      "descripcion": "People Be nace hace muchos años en la zona norte de España.\r\n\r\nNos embarcamos en este proyecto de branding, creación y venta de camisetas y otros artículos con un mensaje inspirador: la ropa para perderse y encontrarse.\r\n\r\nCreamos contenido audiovisual, diseños gráficos, gestión de RRSS o creación del ecommerce entre otros tantos asuntos que requiere este proyecto.",
+      "fecha_creacion": "2026-02-19 10:53:56.842732",
+      "imagen": "trabajos/people-be.webp"
+    }
+  },
+  {
+    "model": "web.trabajo",
+    "pk": 21,
+    "fields": {
+      "titulo": "I Torneo Fútbol Femenino UD Villalba",
+      "descripcion": "¡Éxito en el I Torneo Femenino! 🔥⚽️\r\n\r\nEl pasado 27 de diciembre, la UD Villalba se llenó de fútbol con jugadoras de todo Madrid. Una jornada de competición y mucha ilusión que no hubiera sido igual sin vosotros.\r\n\r\nDurante el torneo, sorteamos muchísimos premios gracias a la generosidad de los comercios de Collado Villalba que se sumaron a la iniciativa. ¡Enhorabuena a todos los ganadores de la rifa! 🎟️👏\r\n\r\nGracias por apoyar el deporte femenino y por apostar por el comercio de nuestro municipio. ¡Nos vemos en la próxima!",
+      "fecha_creacion": "2026-02-19 10:54:37.830783",
+      "imagen": "trabajos/torneo-femenino.webp"
+    }
+  },
+  {
+    "model": "web.mensajecontacto",
+    "pk": 6,
+    "fields": {
+      "nombre": "test",
+      "email": "test@example.com",
+      "telefono": "123456",
+      "mensaje": "hola",
+      "fecha_envio": "2026-02-24 16:58:42.985684"
+    }
+  }
+]
